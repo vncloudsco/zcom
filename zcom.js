@@ -16,7 +16,7 @@
                     var exploit = domainctl+name
                     alert(exploit)
                     // thay doi access_token thanh access_token cua ban
-                    var urli = "https://api-ssl.bitly.com/v3/shorten?longUrl="+exploit+"&access_token=bc230f3eb2de566fc27e53b4289a4b51497df3a0"
+                    var urli = "https://api-ssl.bitly.com/v3/shorten?longUrl="+exploit+"&access_token=xxxxxxxxxx"
                     alert(urli)
                     var mtdev = new XMLHttpRequest();
                     mtdev.open("get", urli, true);
